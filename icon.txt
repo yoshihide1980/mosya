@@ -1,0 +1,5 @@
+<i class="fas fa-chalkboard-teacher"></i>	中
+
+<i class="fas fa-dumbbell"></i>		左
+
+<i class="far fa-life-ring"></i>	右
