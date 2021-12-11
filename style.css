@@ -73,6 +73,11 @@ strong {
   font-weight: 700;
 }
 
+.midori {
+  background-color: #2498b3;
+  color: #fff;
+}
+
 .Main {
   display: block;
   padding-top: 70px;
@@ -89,6 +94,7 @@ article {
   background-image: url("../../img/bg-hero3.png");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 
 .TopHead_layer1 {
@@ -97,12 +103,14 @@ article {
   justify-content: center;
   padding-top: 80px;
   background: url("../../img/bg-hero1.png");
+  background-position: right 50% top -80px;
   z-index: 200;
 }
 
 .TopHead_layer2 {
   background: url("../../img/bg-hero2.png");
   z-index: 100;
+  background-position: center;
 }
 
 .TopHead_layer {
