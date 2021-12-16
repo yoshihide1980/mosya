@@ -175,33 +175,120 @@ img {
   line-height: 1.7;
   text-align: center;
 }
-/*# sourceMappingURL=style.css.map */{
-  margin: 1.3em 0 0.5em;
-  font-weight: 700;
-  line-height: 1.7;
-  text-align: center;
+
+.Sec.Sec--nallow {
+  padding: 4em 0;
 }
 
-.TopHead_body p.Btn.Btn--big a {
-  padding: 22px 37px 26px 37px;
-  font-size: 17px;
-  background-color: #2498b3;
-  border-color: #2498b3;
-  text-decoration: none;
+.Sec.Sec--black {
+  background-color: #000;
+}
+
+.Sec--recommendation {
+  z-index: 500;
+}
+
+.Sec {
+  padding: 4em 0;
+}
+
+.Wrap.Wrap--wide {
+  max-width: 1078px;
+}
+
+.Wrap {
+  margin: 0 auto;
+  max-width: 714px;
+}
+
+.Recommendation {
+  position: relative;
+  display: flex;
+  margin-top: -263px;
+  justify-content: center;
   color: #fff;
-  margin-left: 20px;
+  z-index: 1000;
+}
+
+.Recommendation_entry {
+  margin: 0 50px;
+  width: 229px;
+}
+
+.Recommendation_title {
   text-align: center;
 }
 
-.Btn a {
-  height: 18px;
-  width: 218px;
-  padding: 15px 23px;
-  border-radius: 4px;
-  display: block;
+.Recommendation_title .Recommendation_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 230px;
+  margin: 0 auto;
+  color: #000;
+  border: solid 6px #000;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 100px;
+}
+
+.Recommendation_title p {
+  margin: 0.2em 0 0;
   font-weight: 700;
-  border: solid 1px #c3c3c3;
+  font-size: 24px;
+  /* font-size: 2.4rem; */
+  color: #fff;
+}
+
+.Recommendation_body p {
+  margin: 0.5em 0 0;
   line-height: 1.7;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */ndex: 1000;
+}
+
+.Recommendation_entry {
+  margin: 0 50px;
+  width: 229px;
+}
+
+.Recommendation_title {
   text-align: center;
+}
+
+.Recommendation_title .Recommendation_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 230px;
+  height: 230px;
+  margin: 0 auto;
+  color: #000;
+  border: solid 6px #000;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 100px;
+}
+
+.Recommendation_title p {
+  margin: 0.2em 0 0;
+  font-weight: 700;
+  font-size: 24px;
+  /* font-size: 2.4rem; */
+  color: #fff;
+}
+
+.Recommendation_body p {
+  margin: 0.5em 0 0;
+  line-height: 1.7;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
